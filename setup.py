@@ -16,6 +16,9 @@ setup (name='PyArabic', version='0.6.10',
       long_description = readme(),
       long_description_content_type='text/markdown',
       package_dir={'pyarabic': 'pyarabic',},
+      install_requires=[
+          'six',
+      ],
       packages=['pyarabic'],
       package_data = {
         'pyarabic': ['doc/*.*','doc/html/*'],
